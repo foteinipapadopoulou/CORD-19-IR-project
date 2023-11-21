@@ -1,0 +1,5 @@
+pyterrier
+pandas
+git+https://github.com/terrierteam/pyterrier_doc2query.git
+git+https://github.com/terrierteam/pyterrier_dr.git
+git+https://github.com/terrierteam/pyterrier_pisa.git
