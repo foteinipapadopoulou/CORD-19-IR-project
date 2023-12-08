@@ -1,7 +1,0 @@
-version : '3'
-services:
-    python-with-pyterrier:
-      build: .
-      volumes:
-        - .:/usr/src/app
-      entrypoint: ["tail", "-f", "/dev/null"] # runs infinitely

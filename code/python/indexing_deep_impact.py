@@ -5,7 +5,7 @@ if not pt.started():
 pt.logging("INFO")
 
 from pyt_deepimpact import DeepImpactIndexer
-from indexing import load_dataset, FULL_TREC_COVID_DATASET_NAME, text_iter
+from code.python.indexing import load_dataset, FULL_TREC_COVID_DATASET_NAME, text_iter
 from code.python.retrieval import retrieval_deep_impact
 
 DEEPIMPACT_INDEX_NAME = 'deepimpact_index'
