@@ -1,0 +1,8 @@
+﻿Method,Time (ms),Color
+Standard Index TF-IDF,27.66,#818479
+Standard Index BM25,27.72,#8E9689
+Standard Index DirichletLM,55.58,#9BA898
+Doc2Query-- Index TF-IDF,27.36,#B5CBB7
+Doc2Query-- Index BM25,28.12,#C4D8BE
+Doc2Query-- Index DirichletLM,29.2,#D2E4C4
+Deep Impact,73.8,#E7E08B
