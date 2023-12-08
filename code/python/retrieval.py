@@ -8,7 +8,7 @@ pt.logging("INFO")
 
 from pyterrier.measures import *
 
-from indexing import load_dataset, FULL_TREC_COVID_DATASET_NAME
+from code.python.indexing import load_dataset, FULL_TREC_COVID_DATASET_NAME
 
 
 def retrieval(index_ref, loaded_dataset, variant='title'):
