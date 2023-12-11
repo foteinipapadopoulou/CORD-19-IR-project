@@ -8,7 +8,7 @@ pt.logging("INFO")
 
 from pyterrier_doc2query import Doc2Query, QueryScorer, QueryFilter
 from pyterrier_dr import ElectraScorer
-from code.python.retrieval import retrieval
+
 
 """
 The code for indexing using the Doc2Query-- was retrieved and modified 
@@ -76,11 +76,6 @@ def doc2query_minus_minus_indexing():
     return index_ref, loaded_dataset
 
 
-def doc2query_minus_minus_retrieval(index_ref, loaded_dataset):
-    exp = retrieval(index_ref, loaded_dataset)
-    print(exp)
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process parameter.')
 
@@ -92,8 +87,5 @@ if __name__ == '__main__':
 
     if use_doc2query == "yes":
         index_ref, loaded_dataset = doc2query_minus_minus_indexing()
-        doc2query_minus_minus_retrieval(index_ref, loaded_dataset)
     else:
         index_ref, loaded_dataset = indexing()
-        exp = retrieval(index_ref, loaded_dataset)
-        print(exp)

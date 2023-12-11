@@ -1,0 +1,12 @@
+Title,
+Doc2Query-- Index TF-IDF 40,32.26
+Doc2Query-- Index BM25 40,31.74
+Doc2Query-- Index DLM 40,31.48
+Description,
+Doc2Query-- Index TF-IDF 40,56.44
+Doc2Query-- Index BM25 40,43.98
+Doc2Query-- Index DirichletLM 40,43.86
+Narrative,
+Doc2Query-- Index TF-IDF 40,77.74
+Doc2Query-- Index BM25 40,63.58
+Doc2Query-- Index DirichletLM 40,66.3

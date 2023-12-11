@@ -1,0 +1,550 @@
+18:39:00.702 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 1 - what is the origin of covid 19
+18:39:00.704 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:00.706 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:00.708 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:00.712 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:00.714 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:00.716 [main] INFO org.terrier.querying.LocalManager - origin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7a419da4] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@14555e0a] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4bb33f74] tags=[firstmatchscore]}
+18:39:00.720 [main] INFO org.terrier.matching.PostingListManager - Query 1 with 3 terms has 3 posting lists
+18:39:00.737 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:00.743 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:00.748 [main] INFO org.terrier.querying.LocalManager - Finished executing query 1 in 46ms - 1000 results retrieved
+18:39:00.778 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 2 - how does the coronavirus respond to changes in the weather
+18:39:00.780 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:00.782 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:00.783 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:00.785 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:00.787 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:00.789 [main] INFO org.terrier.querying.LocalManager - coronaviru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@759d26fb] tags=[firstmatchscore]} respond { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3c73951] tags=[firstmatchscore]} chang { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3d5c822d] tags=[firstmatchscore]} weather { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6f46426d] tags=[firstmatchscore]}
+18:39:00.793 [main] INFO org.terrier.matching.PostingListManager - Query 2 with 4 terms has 4 posting lists
+18:39:00.802 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:00.807 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:00.808 [main] INFO org.terrier.querying.LocalManager - Finished executing query 2 in 30ms - 1000 results retrieved
+18:39:00.837 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 3 - will sars cov2 infected people develop immunity is cross protection possible
+18:39:00.839 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:00.841 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:00.843 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:00.846 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:00.848 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:00.850 [main] INFO org.terrier.querying.LocalManager - will { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@73700b80] tags=[firstmatchscore]} sar { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@49c7b90e] tags=[firstmatchscore]} cov2 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@10d307f1] tags=[firstmatchscore]} infect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4d5b6aac] tags=[firstmatchscore]} peopl { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3e84448c] tags=[firstmatchscore]} develop { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4a7f959b] tags=[firstmatchscore]} immun { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@429bffaa] tags=[firstmatchscore]} cross { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5403f35f] tags=[firstmatchscore]} protect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@483f6d77] tags=[firstmatchscore]} possibl { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7e5afaa6] tags=[firstmatchscore]}
+18:39:00.885 [main] INFO org.terrier.matching.PostingListManager - Query 3 with 10 terms has 10 posting lists
+18:39:00.917 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:00.922 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:00.924 [main] INFO org.terrier.querying.LocalManager - Finished executing query 3 in 87ms - 1000 results retrieved
+18:39:00.953 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 4 - what causes death from covid 19
+18:39:00.955 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:00.957 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:00.958 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:00.960 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:00.962 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:00.964 [main] INFO org.terrier.querying.LocalManager - caus { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@63a12c68] tags=[firstmatchscore]} death { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@28f3b248] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1b1426f4] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@32b260fa] tags=[firstmatchscore]}
+18:39:00.987 [main] INFO org.terrier.matching.PostingListManager - Query 4 with 4 terms has 4 posting lists
+18:39:01.009 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.013 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.014 [main] INFO org.terrier.querying.LocalManager - Finished executing query 4 in 61ms - 1000 results retrieved
+18:39:01.043 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 5 - what drugs have been active against sars cov or sars cov 2 in animal studies
+18:39:01.045 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.047 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.049 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.051 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.052 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.055 [main] INFO org.terrier.querying.LocalManager - drug { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@581ac8a8] tags=[firstmatchscore]} activ { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6d4e5011] tags=[firstmatchscore]} sar { req=null, w=2.0, stats=null, models=[org.terrier.matching.models.TF_IDF@57d7f8ca] tags=[firstmatchscore]} cov { req=null, w=2.0, stats=null, models=[org.terrier.matching.models.TF_IDF@76c3e77a] tags=[firstmatchscore]} 2 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@78123e82] tags=[firstmatchscore]} anim { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@67c33749] tags=[firstmatchscore]} studi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@fba92d3] tags=[firstmatchscore]}
+18:39:01.073 [main] INFO org.terrier.matching.PostingListManager - Query 5 with 7 terms has 7 posting lists
+18:39:01.102 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.106 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.108 [main] INFO org.terrier.querying.LocalManager - Finished executing query 5 in 65ms - 1000 results retrieved
+18:39:01.139 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 6 - what types of rapid testing for covid 19 have been developed
+18:39:01.140 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.142 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.144 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.146 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.148 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.150 [main] INFO org.terrier.querying.LocalManager - type { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@662b4c69] tags=[firstmatchscore]} rapid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@fa49800] tags=[firstmatchscore]} test { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@71238fc2] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2a54a73f] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@16a0ee18] tags=[firstmatchscore]} develop { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3d6f0054] tags=[firstmatchscore]}
+18:39:01.162 [main] INFO org.terrier.matching.PostingListManager - Query 6 with 6 terms has 6 posting lists
+18:39:01.189 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.193 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.194 [main] INFO org.terrier.querying.LocalManager - Finished executing query 6 in 55ms - 1000 results retrieved
+18:39:01.223 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 7 - are there serological tests that detect antibodies to coronavirus
+18:39:01.225 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.227 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.229 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.231 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.232 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.235 [main] INFO org.terrier.querying.LocalManager - serolog { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@505fc5a4] tags=[firstmatchscore]} test { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5fbdfdcf] tags=[firstmatchscore]} detect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4efc180e] tags=[firstmatchscore]} antibodi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@bd4dc25] tags=[firstmatchscore]} coronaviru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@25084a1e] tags=[firstmatchscore]}
+18:39:01.247 [main] INFO org.terrier.matching.PostingListManager - Query 7 with 5 terms has 5 posting lists
+18:39:01.265 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.269 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.271 [main] INFO org.terrier.querying.LocalManager - Finished executing query 7 in 48ms - 1000 results retrieved
+18:39:01.300 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 8 - how has lack of testing availability led to underreporting of true incidence of covid 19
+18:39:01.302 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.304 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.306 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.308 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.310 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.312 [main] INFO org.terrier.querying.LocalManager - lack { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@156b88f5] tags=[firstmatchscore]} test { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3bf9ce3e] tags=[firstmatchscore]} avail { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@16610890] tags=[firstmatchscore]} led { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@71def8f8] tags=[firstmatchscore]} underreport { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@383bfa16] tags=[firstmatchscore]} true { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4d465b11] tags=[firstmatchscore]} incid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@53fdffa1] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5562c41e] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@32ee6fee] tags=[firstmatchscore]}
+18:39:01.364 [main] INFO org.terrier.matching.PostingListManager - Query 8 with 9 terms has 9 posting lists
+18:39:01.387 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.392 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.393 [main] INFO org.terrier.querying.LocalManager - Finished executing query 8 in 93ms - 1000 results retrieved
+18:39:01.422 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 9 - how has covid 19 affected canada
+18:39:01.424 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.426 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.428 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.430 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.432 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.435 [main] INFO org.terrier.querying.LocalManager - covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4d0f2471] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7133da86] tags=[firstmatchscore]} affect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3232a28a] tags=[firstmatchscore]} canada { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@73e22a3d] tags=[firstmatchscore]}
+18:39:01.447 [main] INFO org.terrier.matching.PostingListManager - Query 9 with 4 terms has 4 posting lists
+18:39:01.463 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.466 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.468 [main] INFO org.terrier.querying.LocalManager - Finished executing query 9 in 46ms - 1000 results retrieved
+18:39:01.496 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 10 - has social distancing had an impact on slowing the spread of covid 19
+18:39:01.499 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.500 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.502 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.504 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.506 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.509 [main] INFO org.terrier.querying.LocalManager - social { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@47faa49c] tags=[firstmatchscore]} distanc { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@28f2a10f] tags=[firstmatchscore]} impact { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@f736069] tags=[firstmatchscore]} slow { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6da21078] tags=[firstmatchscore]} spread { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7fee8714] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4229bb3f] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@56cdfb3b] tags=[firstmatchscore]}
+18:39:01.521 [main] INFO org.terrier.matching.PostingListManager - Query 10 with 7 terms has 7 posting lists
+18:39:01.540 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.544 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.546 [main] INFO org.terrier.querying.LocalManager - Finished executing query 10 in 50ms - 1000 results retrieved
+18:39:01.575 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 11 - what are the guidelines for triaging patients infected with coronavirus
+18:39:01.577 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.579 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.581 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.582 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.584 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.586 [main] INFO org.terrier.querying.LocalManager - guidelin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2b91004a] tags=[firstmatchscore]} triag { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@20ccf40b] tags=[firstmatchscore]} patient { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2fb3536e] tags=[firstmatchscore]} infect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@169e6180] tags=[firstmatchscore]} coronaviru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@35aea049] tags=[firstmatchscore]}
+18:39:01.620 [main] INFO org.terrier.matching.PostingListManager - Query 11 with 5 terms has 5 posting lists
+18:39:01.651 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.655 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.657 [main] INFO org.terrier.querying.LocalManager - Finished executing query 11 in 82ms - 1000 results retrieved
+18:39:01.686 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 12 - what are best practices in hospitals and at home in maintaining quarantine
+18:39:01.689 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.691 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.692 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.694 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.697 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.698 [main] INFO org.terrier.querying.LocalManager - best { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7205765b] tags=[firstmatchscore]} practic { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@47987356] tags=[firstmatchscore]} hospit { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@22ef9844] tags=[firstmatchscore]} home { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6283d8b8] tags=[firstmatchscore]} maintain { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3b6ddd1d] tags=[firstmatchscore]} quarantin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3f6b0be5] tags=[firstmatchscore]}
+18:39:01.750 [main] INFO org.terrier.matching.PostingListManager - Query 12 with 6 terms has 6 posting lists
+18:39:01.763 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.766 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.768 [main] INFO org.terrier.querying.LocalManager - Finished executing query 12 in 82ms - 1000 results retrieved
+18:39:01.799 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 13 - what are the transmission routes of coronavirus
+18:39:01.801 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.803 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.805 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.806 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.808 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.810 [main] INFO org.terrier.querying.LocalManager - transmiss { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@611889f4] tags=[firstmatchscore]} rout { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1da2cb77] tags=[firstmatchscore]} coronaviru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@48f278eb] tags=[firstmatchscore]}
+18:39:01.822 [main] INFO org.terrier.matching.PostingListManager - Query 13 with 3 terms has 3 posting lists
+18:39:01.830 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.834 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.835 [main] INFO org.terrier.querying.LocalManager - Finished executing query 13 in 36ms - 1000 results retrieved
+18:39:01.866 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 14 - what evidence is there related to covid 19 super spreaders
+18:39:01.868 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.870 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.872 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.873 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.875 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.877 [main] INFO org.terrier.querying.LocalManager - evid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2f217633] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@a530d0a] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1a18644] tags=[firstmatchscore]} super { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5acf93bb] tags=[firstmatchscore]} spreader { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7e7be63f] tags=[firstmatchscore]}
+18:39:01.893 [main] INFO org.terrier.matching.PostingListManager - Query 14 with 5 terms has 5 posting lists
+18:39:01.910 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.914 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:01.915 [main] INFO org.terrier.querying.LocalManager - Finished executing query 14 in 49ms - 1000 results retrieved
+18:39:01.944 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 15 - how long can the coronavirus live outside the body
+18:39:01.946 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:01.947 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:01.951 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:01.954 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:01.957 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:01.958 [main] INFO org.terrier.querying.LocalManager - long { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6cd28fa7] tags=[firstmatchscore]} can { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@614ca7df] tags=[firstmatchscore]} coronaviru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4738a206] tags=[firstmatchscore]} live { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@66d3eec0] tags=[firstmatchscore]} bodi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1e04fa0a] tags=[firstmatchscore]}
+18:39:01.977 [main] INFO org.terrier.matching.PostingListManager - Query 15 with 5 terms has 5 posting lists
+18:39:01.995 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:01.999 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.001 [main] INFO org.terrier.querying.LocalManager - Finished executing query 15 in 57ms - 1000 results retrieved
+18:39:02.031 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 16 - how long does coronavirus remain stable on surfaces
+18:39:02.033 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.035 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.037 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.039 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.040 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.042 [main] INFO org.terrier.querying.LocalManager - long { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1af2d44a] tags=[firstmatchscore]} coronaviru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@18d87d80] tags=[firstmatchscore]} remain { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@618425b5] tags=[firstmatchscore]} stabl { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@58695725] tags=[firstmatchscore]} surfac { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@543588e6] tags=[firstmatchscore]}
+18:39:02.054 [main] INFO org.terrier.matching.PostingListManager - Query 16 with 5 terms has 5 posting lists
+18:39:02.065 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.070 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.071 [main] INFO org.terrier.querying.LocalManager - Finished executing query 16 in 40ms - 1000 results retrieved
+18:39:02.100 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 17 - are there any clinical trials available for the coronavirus
+18:39:02.102 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.104 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.105 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.107 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.109 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.111 [main] INFO org.terrier.querying.LocalManager - clinic { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@f5acb9d] tags=[firstmatchscore]} trial { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4fb3ee4e] tags=[firstmatchscore]} coronaviru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5d7148e2] tags=[firstmatchscore]}
+18:39:02.114 [main] INFO org.terrier.matching.PostingListManager - Query 17 with 3 terms has 3 posting lists
+18:39:02.124 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.128 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.130 [main] INFO org.terrier.querying.LocalManager - Finished executing query 17 in 30ms - 1000 results retrieved
+18:39:02.159 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 18 - what are the best masks for preventing infection by covid 19
+18:39:02.160 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.162 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.164 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.166 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.168 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.170 [main] INFO org.terrier.querying.LocalManager - best { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@25fb8912] tags=[firstmatchscore]} mask { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7c24b813] tags=[firstmatchscore]} prevent { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2c35e847] tags=[firstmatchscore]} infect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7bd4937b] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@21e360a] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5ba3f27a] tags=[firstmatchscore]}
+18:39:02.174 [main] INFO org.terrier.matching.PostingListManager - Query 18 with 6 terms has 6 posting lists
+18:39:02.195 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.199 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.200 [main] INFO org.terrier.querying.LocalManager - Finished executing query 18 in 42ms - 1000 results retrieved
+18:39:02.229 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 19 - what type of hand sanitizer is needed to destroy covid 19
+18:39:02.231 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.233 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.235 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.236 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.238 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.240 [main] INFO org.terrier.querying.LocalManager - type { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@58d75e99] tags=[firstmatchscore]} hand { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@74751b3] tags=[firstmatchscore]} sanit { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@741a8937] tags=[firstmatchscore]} need { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@306e95ec] tags=[firstmatchscore]} destroi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@52af26ee] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6fd83fc1] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4f2b503c] tags=[firstmatchscore]}
+18:39:02.266 [main] INFO org.terrier.matching.PostingListManager - Query 19 with 7 terms has 7 posting lists
+18:39:02.293 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.297 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.299 [main] INFO org.terrier.querying.LocalManager - Finished executing query 19 in 69ms - 1000 results retrieved
+18:39:02.330 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 20 - are patients taking angiotensin converting enzyme inhibitors ace at increased risk for covid 19
+18:39:02.333 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.335 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.337 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.339 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.341 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.343 [main] INFO org.terrier.querying.LocalManager - patient { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@bae7dc0] tags=[firstmatchscore]} take { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@209da20d] tags=[firstmatchscore]} angiotensin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@e15b7e8] tags=[firstmatchscore]} convert { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1b2abca6] tags=[firstmatchscore]} enzym { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6392827e] tags=[firstmatchscore]} inhibitor { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2ed2d9cb] tags=[firstmatchscore]} ac { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@d5b810e] tags=[firstmatchscore]} increas { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@43dac38f] tags=[firstmatchscore]} risk { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@342c38f8] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@c88a337] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5d0a1059] tags=[firstmatchscore]}
+18:39:02.396 [main] INFO org.terrier.matching.PostingListManager - Query 20 with 11 terms has 11 posting lists
+18:39:02.430 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.434 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.436 [main] INFO org.terrier.querying.LocalManager - Finished executing query 20 in 106ms - 1000 results retrieved
+18:39:02.465 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 21 - what are the mortality rates overall and in specific populations
+18:39:02.467 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.469 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.471 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.473 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.475 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.476 [main] INFO org.terrier.querying.LocalManager - mortal { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@485966cc] tags=[firstmatchscore]} rate { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1de76cc7] tags=[firstmatchscore]} specif { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@54bff557] tags=[firstmatchscore]} popul { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@593aaf41] tags=[firstmatchscore]}
+18:39:02.494 [main] INFO org.terrier.matching.PostingListManager - Query 21 with 4 terms has 4 posting lists
+18:39:02.511 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.516 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.517 [main] INFO org.terrier.querying.LocalManager - Finished executing query 21 in 52ms - 1000 results retrieved
+18:39:02.548 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 22 - are cardiac complications likely in patients with covid 19
+18:39:02.551 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.553 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.554 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.557 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.559 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.560 [main] INFO org.terrier.querying.LocalManager - cardiac { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5a56cdac] tags=[firstmatchscore]} complic { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7c711375] tags=[firstmatchscore]} like { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@57cf54e1] tags=[firstmatchscore]} patient { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5b03b9fe] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@37d4349f] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@434a63ab] tags=[firstmatchscore]}
+18:39:02.586 [main] INFO org.terrier.matching.PostingListManager - Query 22 with 6 terms has 6 posting lists
+18:39:02.612 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.617 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.619 [main] INFO org.terrier.querying.LocalManager - Finished executing query 22 in 71ms - 1000 results retrieved
+18:39:02.649 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 23 - what kinds of complications related to covid 19 are associated with hypertension
+18:39:02.651 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.653 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.655 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.657 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.659 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.661 [main] INFO org.terrier.querying.LocalManager - kind { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6e0f5f7f] tags=[firstmatchscore]} complic { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2805d709] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3ee37e5a] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2ea41516] tags=[firstmatchscore]} associ { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3a44431a] tags=[firstmatchscore]} hypertens { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3c7f66c4] tags=[firstmatchscore]}
+18:39:02.675 [main] INFO org.terrier.matching.PostingListManager - Query 23 with 6 terms has 6 posting lists
+18:39:02.695 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.699 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.701 [main] INFO org.terrier.querying.LocalManager - Finished executing query 23 in 52ms - 1000 results retrieved
+18:39:02.730 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 24 - what kinds of complications related to covid 19 are associated with diabetes
+18:39:02.733 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.734 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.736 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.738 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.740 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.741 [main] INFO org.terrier.querying.LocalManager - kind { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@194bcebf] tags=[firstmatchscore]} complic { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@17497425] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@f0da945] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4803b726] tags=[firstmatchscore]} associ { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@ffaa6af] tags=[firstmatchscore]} diabet { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@53ce1329] tags=[firstmatchscore]}
+18:39:02.746 [main] INFO org.terrier.matching.PostingListManager - Query 24 with 6 terms has 6 posting lists
+18:39:02.763 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.767 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.769 [main] INFO org.terrier.querying.LocalManager - Finished executing query 24 in 39ms - 1000 results retrieved
+18:39:02.798 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 25 - which biomarkers predict the severe clinical course of 2019 ncov infection
+18:39:02.800 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.802 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.804 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.806 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.808 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.810 [main] INFO org.terrier.querying.LocalManager - biomark { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@316bcf94] tags=[firstmatchscore]} predict { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6404f418] tags=[firstmatchscore]} sever { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3e11f9e9] tags=[firstmatchscore]} clinic { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1de5f259] tags=[firstmatchscore]} cours { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@729d991e] tags=[firstmatchscore]} 2019 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@31fa1761] tags=[firstmatchscore]} ncov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@957e06] tags=[firstmatchscore]} infect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@32502377] tags=[firstmatchscore]}
+18:39:02.839 [main] INFO org.terrier.matching.PostingListManager - Query 25 with 8 terms has 8 posting lists
+18:39:02.863 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.867 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.869 [main] INFO org.terrier.querying.LocalManager - Finished executing query 25 in 71ms - 1000 results retrieved
+18:39:02.898 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 26 - what are the initial symptoms of covid 19
+18:39:02.900 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.902 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.904 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.906 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.908 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.910 [main] INFO org.terrier.querying.LocalManager - initi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2c1b194a] tags=[firstmatchscore]} symptom { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4dbb42b7] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@66f57048] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@550dbc7a] tags=[firstmatchscore]}
+18:39:02.913 [main] INFO org.terrier.matching.PostingListManager - Query 26 with 4 terms has 4 posting lists
+18:39:02.928 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:02.932 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:02.934 [main] INFO org.terrier.querying.LocalManager - Finished executing query 26 in 36ms - 1000 results retrieved
+18:39:02.964 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 27 - what is known about those infected with covid 19 but are asymptomatic
+18:39:02.966 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:02.968 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:02.970 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:02.972 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:02.973 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:02.975 [main] INFO org.terrier.querying.LocalManager - known { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@21282ed8] tags=[firstmatchscore]} infect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@36916eb0] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7bab3f1a] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@437da279] tags=[firstmatchscore]} asymptomat { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@23c30a20] tags=[firstmatchscore]}
+18:39:02.986 [main] INFO org.terrier.matching.PostingListManager - Query 27 with 5 terms has 5 posting lists
+18:39:03.013 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.017 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.019 [main] INFO org.terrier.querying.LocalManager - Finished executing query 27 in 55ms - 1000 results retrieved
+18:39:03.047 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 28 - what evidence is there for the value of hydroxychloroquine in treating covid 19
+18:39:03.050 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.051 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.053 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.055 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.057 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.059 [main] INFO org.terrier.querying.LocalManager - evid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1e1a0406] tags=[firstmatchscore]} valu { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3cebbb30] tags=[firstmatchscore]} hydroxychloroquin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@12aba8be] tags=[firstmatchscore]} treat { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@290222c1] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@67f639d3] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6253c26] tags=[firstmatchscore]}
+18:39:03.070 [main] INFO org.terrier.matching.PostingListManager - Query 28 with 6 terms has 6 posting lists
+18:39:03.088 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.093 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.094 [main] INFO org.terrier.querying.LocalManager - Finished executing query 28 in 47ms - 1000 results retrieved
+18:39:03.123 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 29 - which sars cov 2 proteins human proteins interactions indicate potential for drug targets are there approved drugs that can be repurposed based on this information
+18:39:03.125 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.128 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.130 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.132 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.134 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.136 [main] INFO org.terrier.querying.LocalManager - sar { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@49049a04] tags=[firstmatchscore]} cov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@71a8adcf] tags=[firstmatchscore]} 2 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@27462a88] tags=[firstmatchscore]} protein { req=null, w=2.0, stats=null, models=[org.terrier.matching.models.TF_IDF@82de64a] tags=[firstmatchscore]} human { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@659499f1] tags=[firstmatchscore]} interact { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@51e69659] tags=[firstmatchscore]} potenti { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@47e2e487] tags=[firstmatchscore]} drug { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@201a4587] tags=[firstmatchscore]} target { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@61001b64] tags=[firstmatchscore]} approv { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4310d43] tags=[firstmatchscore]} drug { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@54a7079e] tags=[firstmatchscore]} can { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@26e356f0] tags=[firstmatchscore]} repurpos { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@47d9a273] tags=[firstmatchscore]} base { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4b8ee4de] tags=[firstmatchscore]}
+18:39:03.182 [main] INFO org.terrier.matching.PostingListManager - Query 29 with 14 terms has 14 posting lists
+18:39:03.226 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.230 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.231 [main] INFO org.terrier.querying.LocalManager - Finished executing query 29 in 108ms - 1000 results retrieved
+18:39:03.261 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 30 - is remdesivir an effective treatment for covid 19
+18:39:03.263 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.265 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.267 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.269 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.271 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.273 [main] INFO org.terrier.querying.LocalManager - remdesivir { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@27f981c6] tags=[firstmatchscore]} effect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1b11171f] tags=[firstmatchscore]} treatment { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1151e434] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2dc54ad4] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4659191b] tags=[firstmatchscore]}
+18:39:03.286 [main] INFO org.terrier.matching.PostingListManager - Query 30 with 5 terms has 5 posting lists
+18:39:03.310 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.314 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.316 [main] INFO org.terrier.querying.LocalManager - Finished executing query 30 in 55ms - 1000 results retrieved
+18:39:03.346 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 31 - how does the coronavirus differ from seasonal flu
+18:39:03.349 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.350 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.352 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.354 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.356 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.358 [main] INFO org.terrier.querying.LocalManager - coronaviru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@55634720] tags=[firstmatchscore]} differ { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4b0d79fc] tags=[firstmatchscore]} season { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4c1909a3] tags=[firstmatchscore]} flu { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@428640fa] tags=[firstmatchscore]}
+18:39:03.379 [main] INFO org.terrier.matching.PostingListManager - Query 31 with 4 terms has 4 posting lists
+18:39:03.388 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.391 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.393 [main] INFO org.terrier.querying.LocalManager - Finished executing query 31 in 47ms - 1000 results retrieved
+18:39:03.422 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 32 - does sars cov 2 have any subtypes and if so what are they
+18:39:03.424 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.426 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.428 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.430 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.432 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.434 [main] INFO org.terrier.querying.LocalManager - sar { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@d9345cd] tags=[firstmatchscore]} cov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2d710f1a] tags=[firstmatchscore]} 2 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@29215f06] tags=[firstmatchscore]} subtyp { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@59505b48] tags=[firstmatchscore]}
+18:39:03.437 [main] INFO org.terrier.matching.PostingListManager - Query 32 with 4 terms has 4 posting lists
+18:39:03.451 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.455 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.456 [main] INFO org.terrier.querying.LocalManager - Finished executing query 32 in 34ms - 1000 results retrieved
+18:39:03.487 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 33 - what vaccine candidates are being tested for covid 19
+18:39:03.490 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.493 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.495 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.497 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.498 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.501 [main] INFO org.terrier.querying.LocalManager - vaccin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4efac082] tags=[firstmatchscore]} candid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6bd61f98] tags=[firstmatchscore]} be { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@48aca48b] tags=[firstmatchscore]} test { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@13fd2ccd] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@b9b00e0] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@506ae4d4] tags=[firstmatchscore]}
+18:39:03.510 [main] INFO org.terrier.matching.PostingListManager - Query 33 with 6 terms has 6 posting lists
+18:39:03.529 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.532 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.534 [main] INFO org.terrier.querying.LocalManager - Finished executing query 33 in 47ms - 1000 results retrieved
+18:39:03.563 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 34 - what are the longer term complications of those who recover from covid 19
+18:39:03.565 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.567 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.568 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.570 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.574 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.576 [main] INFO org.terrier.querying.LocalManager - longer { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7d4f9aae] tags=[firstmatchscore]} term { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@72e5a8e] tags=[firstmatchscore]} complic { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@54e1c68b] tags=[firstmatchscore]} who { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@53aac487] tags=[firstmatchscore]} recov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@52b1beb6] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@273e7444] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7db12bb6] tags=[firstmatchscore]}
+18:39:03.590 [main] INFO org.terrier.matching.PostingListManager - Query 34 with 7 terms has 7 posting lists
+18:39:03.613 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.617 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.619 [main] INFO org.terrier.querying.LocalManager - Finished executing query 34 in 55ms - 1000 results retrieved
+18:39:03.647 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 35 - what new public datasets are available related to covid 19
+18:39:03.649 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.651 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.653 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.655 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.656 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.659 [main] INFO org.terrier.querying.LocalManager - new { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@783a467b] tags=[firstmatchscore]} public { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@272113c4] tags=[firstmatchscore]} dataset { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@73e9cf30] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@771a660] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2d52216b] tags=[firstmatchscore]}
+18:39:03.669 [main] INFO org.terrier.matching.PostingListManager - Query 35 with 5 terms has 5 posting lists
+18:39:03.687 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.692 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.694 [main] INFO org.terrier.querying.LocalManager - Finished executing query 35 in 47ms - 1000 results retrieved
+18:39:03.723 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 36 - what is the protein structure of the sars cov 2 spike
+18:39:03.725 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.727 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.729 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.731 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.733 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.735 [main] INFO org.terrier.querying.LocalManager - protein { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@242b836] tags=[firstmatchscore]} structur { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3f6f6701] tags=[firstmatchscore]} sar { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3527942a] tags=[firstmatchscore]} cov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@942a29c] tags=[firstmatchscore]} 2 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1ed6388a] tags=[firstmatchscore]} spike { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5a45133e] tags=[firstmatchscore]}
+18:39:03.739 [main] INFO org.terrier.matching.PostingListManager - Query 36 with 6 terms has 6 posting lists
+18:39:03.756 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.760 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.762 [main] INFO org.terrier.querying.LocalManager - Finished executing query 36 in 39ms - 1000 results retrieved
+18:39:03.791 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 37 - what is the result of phylogenetic analysis of sars cov 2 genome sequence
+18:39:03.793 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.795 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.797 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.798 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.800 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.802 [main] INFO org.terrier.querying.LocalManager - result { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@534a5a98] tags=[firstmatchscore]} phylogenet { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4f80542f] tags=[firstmatchscore]} analysi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@60bd273d] tags=[firstmatchscore]} sar { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@121314f7] tags=[firstmatchscore]} cov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@130c12b7] tags=[firstmatchscore]} 2 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5e600dd5] tags=[firstmatchscore]} genom { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@576d5deb] tags=[firstmatchscore]} sequenc { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5d534f5d] tags=[firstmatchscore]}
+18:39:03.823 [main] INFO org.terrier.matching.PostingListManager - Query 37 with 8 terms has 8 posting lists
+18:39:03.853 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.858 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.860 [main] INFO org.terrier.querying.LocalManager - Finished executing query 37 in 69ms - 1000 results retrieved
+18:39:03.895 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 38 - what is the mechanism of inflammatory response and pathogenesis of covid 19 cases
+18:39:03.897 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.899 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.901 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.902 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.904 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.906 [main] INFO org.terrier.querying.LocalManager - mechan { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2e3967ea] tags=[firstmatchscore]} inflammatori { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@70e9c95d] tags=[firstmatchscore]} respons { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4d5650ae] tags=[firstmatchscore]} pathogenesi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@a38c7fe] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6fdbe764] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@51c668e3] tags=[firstmatchscore]} case { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2e6a8155] tags=[firstmatchscore]}
+18:39:03.925 [main] INFO org.terrier.matching.PostingListManager - Query 38 with 7 terms has 7 posting lists
+18:39:03.952 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:03.956 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:03.957 [main] INFO org.terrier.querying.LocalManager - Finished executing query 38 in 62ms - 1000 results retrieved
+18:39:03.986 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 39 - what is the mechanism of cytokine storm syndrome on the covid 19
+18:39:03.988 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:03.991 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:03.993 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:03.995 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:03.996 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:03.999 [main] INFO org.terrier.querying.LocalManager - mechan { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6221a451] tags=[firstmatchscore]} cytokin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@52719fb6] tags=[firstmatchscore]} storm { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3012646b] tags=[firstmatchscore]} syndrom { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4a883b15] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@25641d39] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7b36aa0c] tags=[firstmatchscore]}
+18:39:04.005 [main] INFO org.terrier.matching.PostingListManager - Query 39 with 6 terms has 6 posting lists
+18:39:04.023 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.028 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.029 [main] INFO org.terrier.querying.LocalManager - Finished executing query 39 in 43ms - 1000 results retrieved
+18:39:04.177 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 40 - what are the observed mutations in the sars cov 2 genome and how often do the mutations occur
+18:39:04.179 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.181 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.183 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.185 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.187 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.189 [main] INFO org.terrier.querying.LocalManager - observ { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5824a83d] tags=[firstmatchscore]} mutat { req=null, w=2.0, stats=null, models=[org.terrier.matching.models.TF_IDF@537f60bf] tags=[firstmatchscore]} sar { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5677323c] tags=[firstmatchscore]} cov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@18df8434] tags=[firstmatchscore]} 2 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@65c7a252] tags=[firstmatchscore]} genom { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4d154ccd] tags=[firstmatchscore]} occur { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@229c6181] tags=[firstmatchscore]}
+18:39:04.205 [main] INFO org.terrier.matching.PostingListManager - Query 40 with 7 terms has 7 posting lists
+18:39:04.226 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.230 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.232 [main] INFO org.terrier.querying.LocalManager - Finished executing query 40 in 55ms - 1000 results retrieved
+18:39:04.261 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 41 - what are the impacts of covid 19 among african americans that differ from the rest of the u s population
+18:39:04.263 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.265 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.266 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.268 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.270 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.272 [main] INFO org.terrier.querying.LocalManager - impact { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4686afc2] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1e0b4072] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@791f145a] tags=[firstmatchscore]} african { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@38cee291] tags=[firstmatchscore]} american { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4b45a2f5] tags=[firstmatchscore]} differ { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@f09733f] tags=[firstmatchscore]} rest { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@e350b40] tags=[firstmatchscore]} popul { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@41a0aa7d] tags=[firstmatchscore]}
+18:39:04.278 [main] INFO org.terrier.matching.PostingListManager - Query 41 with 8 terms has 8 posting lists
+18:39:04.298 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.301 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.303 [main] INFO org.terrier.querying.LocalManager - Finished executing query 41 in 42ms - 1000 results retrieved
+18:39:04.331 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 42 - does vitamin d impact covid 19 prevention and treatment
+18:39:04.333 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.335 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.337 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.339 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.341 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.342 [main] INFO org.terrier.querying.LocalManager - vitamin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2794eab6] tags=[firstmatchscore]} impact { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6340e5f0] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@45099dd3] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@13e344d] tags=[firstmatchscore]} prevent { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1ffaf86] tags=[firstmatchscore]} treatment { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6574a52c] tags=[firstmatchscore]}
+18:39:04.347 [main] INFO org.terrier.matching.PostingListManager - Query 42 with 6 terms has 6 posting lists
+18:39:04.367 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.372 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.373 [main] INFO org.terrier.querying.LocalManager - Finished executing query 42 in 42ms - 1000 results retrieved
+18:39:04.404 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 43 - how has the covid 19 pandemic impacted violence in society including violent crimes
+18:39:04.407 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.409 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.410 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.413 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.415 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.417 [main] INFO org.terrier.querying.LocalManager - covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6c1a5b54] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1c7696c6] tags=[firstmatchscore]} pandem { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@60099951] tags=[firstmatchscore]} impact { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@20140db9] tags=[firstmatchscore]} violenc { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1e6a3214] tags=[firstmatchscore]} societi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@368247b9] tags=[firstmatchscore]} includ { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1a6d8329] tags=[firstmatchscore]} violent { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1a942c18] tags=[firstmatchscore]} crime { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@55a147cc] tags=[firstmatchscore]}
+18:39:04.427 [main] INFO org.terrier.matching.PostingListManager - Query 43 with 9 terms has 9 posting lists
+18:39:04.451 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.455 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.457 [main] INFO org.terrier.querying.LocalManager - Finished executing query 43 in 53ms - 1000 results retrieved
+18:39:04.487 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 44 - how much impact do masks have on preventing the spread of the covid 19
+18:39:04.489 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.491 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.493 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.495 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.496 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.498 [main] INFO org.terrier.querying.LocalManager - impact { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@71ba6d4e] tags=[firstmatchscore]} mask { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@738dc9b] tags=[firstmatchscore]} prevent { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3c77d488] tags=[firstmatchscore]} spread { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@63376bed] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4145bad8] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@d86a6f] tags=[firstmatchscore]}
+18:39:04.503 [main] INFO org.terrier.matching.PostingListManager - Query 44 with 6 terms has 6 posting lists
+18:39:04.521 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.525 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.527 [main] INFO org.terrier.querying.LocalManager - Finished executing query 44 in 40ms - 1000 results retrieved
+18:39:04.557 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 45 - how has the covid 19 pandemic impacted mental health
+18:39:04.558 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.561 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.562 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.564 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.566 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.568 [main] INFO org.terrier.querying.LocalManager - covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2892d68] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5ab956d7] tags=[firstmatchscore]} pandem { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3646a422] tags=[firstmatchscore]} impact { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@750e2b97] tags=[firstmatchscore]} mental { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@3e27aa33] tags=[firstmatchscore]} health { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2e385cce] tags=[firstmatchscore]}
+18:39:04.572 [main] INFO org.terrier.matching.PostingListManager - Query 45 with 6 terms has 6 posting lists
+18:39:04.593 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.597 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.599 [main] INFO org.terrier.querying.LocalManager - Finished executing query 45 in 42ms - 1000 results retrieved
+18:39:04.629 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 46 - what evidence is there for dexamethasone as a treatment for covid 19
+18:39:04.631 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.633 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.635 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.637 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.639 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.641 [main] INFO org.terrier.querying.LocalManager - evid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2ddc9a9f] tags=[firstmatchscore]} dexamethason { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@298a5e20] tags=[firstmatchscore]} treatment { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2a7f1f10] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@46cdf8bd] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@f0c8a99] tags=[firstmatchscore]}
+18:39:04.645 [main] INFO org.terrier.matching.PostingListManager - Query 46 with 5 terms has 5 posting lists
+18:39:04.663 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.667 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.669 [main] INFO org.terrier.querying.LocalManager - Finished executing query 46 in 40ms - 1000 results retrieved
+18:39:04.699 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 47 - what are the health outcomes for children who contract covid 19
+18:39:04.701 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.703 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.705 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.707 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.708 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.710 [main] INFO org.terrier.querying.LocalManager - health { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@740cae06] tags=[firstmatchscore]} outcom { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@26d9b808] tags=[firstmatchscore]} children { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@f78a47e] tags=[firstmatchscore]} who { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@644baf4a] tags=[firstmatchscore]} contract { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7526515b] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1ed4ae0f] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@54c5a2ff] tags=[firstmatchscore]}
+18:39:04.720 [main] INFO org.terrier.matching.PostingListManager - Query 47 with 7 terms has 7 posting lists
+18:39:04.741 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.745 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.747 [main] INFO org.terrier.querying.LocalManager - Finished executing query 47 in 48ms - 1000 results retrieved
+18:39:04.776 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 48 - what are the benefits and risks of re opening schools in the midst of the covid 19 pandemic
+18:39:04.778 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.780 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.781 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.783 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.785 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.787 [main] INFO org.terrier.querying.LocalManager - benefit { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6d4d66d2] tags=[firstmatchscore]} risk { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2a265ea9] tags=[firstmatchscore]} open { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@11392934] tags=[firstmatchscore]} school { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6892b3b6] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6e6f2380] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@76a4ebf2] tags=[firstmatchscore]} pandem { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2e8c1c9b] tags=[firstmatchscore]}
+18:39:04.802 [main] INFO org.terrier.matching.PostingListManager - Query 48 with 7 terms has 7 posting lists
+18:39:04.824 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:04.828 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:04.829 [main] INFO org.terrier.querying.LocalManager - Finished executing query 48 in 53ms - 1000 results retrieved
+18:39:04.858 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 49 - do individuals who recover from covid 19 show sufficient immune response including antibody levels and t cell mediated immunity to prevent re infection
+18:39:04.861 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:04.863 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:04.865 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:04.867 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:04.869 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:04.871 [main] INFO org.terrier.querying.LocalManager - individu { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@53fe15ff] tags=[firstmatchscore]} who { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@449a4f23] tags=[firstmatchscore]} recov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@1530c739] tags=[firstmatchscore]} covid { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5b1669c0] tags=[firstmatchscore]} 19 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@78e4deb0] tags=[firstmatchscore]} show { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@6e9175d8] tags=[firstmatchscore]} suffici { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7d0b7e3c] tags=[firstmatchscore]} immun { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@15bb5034] tags=[firstmatchscore]} respons { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@4b741d6d] tags=[firstmatchscore]} includ { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2eae8e6e] tags=[firstmatchscore]} antibodi { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@8f2ef19] tags=[firstmatchscore]} level { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@470734c3] tags=[firstmatchscore]} cell { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2cf3d63b] tags=[firstmatchscore]} mediat { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@7674f035] tags=[firstmatchscore]} immun { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@69e153c5] tags=[firstmatchscore]} prevent { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@173ed316] tags=[firstmatchscore]} infect { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@25ce9dc4] tags=[firstmatchscore]}
+18:39:04.906 [main] INFO org.terrier.matching.PostingListManager - Query 49 with 17 terms has 17 posting lists
+18:39:04.995 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:05.000 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:05.002 [main] INFO org.terrier.querying.LocalManager - Finished executing query 49 in 144ms - 1000 results retrieved
+18:39:05.034 [main] INFO org.terrier.querying.LocalManager - Starting to execute query 50 - what is known about an mrna vaccine for the sars cov 2 virus
+18:39:05.036 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLParser
+18:39:05.038 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToControls
+18:39:05.039 [main] INFO org.terrier.querying.LocalManager - running process TerrierQLToMatchingQueryTerms
+18:39:05.041 [main] INFO org.terrier.querying.LocalManager - running process ApplyTermPipeline(termpipelines=Stopwords,PorterStemmer)
+18:39:05.043 [main] INFO org.terrier.querying.LocalManager - running process ApplyLocalMatching
+18:39:05.045 [main] INFO org.terrier.querying.LocalManager - known { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@74ea2410] tags=[firstmatchscore]} mrna { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@17f62e33] tags=[firstmatchscore]} vaccin { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@76b1e9b8] tags=[firstmatchscore]} sar { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@27406a17] tags=[firstmatchscore]} cov { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@2af004b] tags=[firstmatchscore]} 2 { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@248e319b] tags=[firstmatchscore]} viru { req=null, w=1.0, stats=null, models=[org.terrier.matching.models.TF_IDF@5d0bf09b] tags=[firstmatchscore]}
+18:39:05.051 [main] INFO org.terrier.matching.PostingListManager - Query 50 with 7 terms has 7 posting lists
+18:39:05.086 [main] INFO org.terrier.querying.LocalManager - running process PostFilterProcess
+18:39:05.091 [main] INFO org.terrier.querying.LocalManager - running process SimpleDecorateProcess
+18:39:05.094 [main] INFO org.terrier.querying.LocalManager - Finished executing query 50 in 60ms - 1000 results retrieved

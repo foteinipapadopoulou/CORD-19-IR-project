@@ -47,7 +47,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process some parameters.')
 
     parser.add_argument('index_path', type=str, help='A path to the index')
-    parser.add_argument('--variant', )
     parser.add_argument('--variant', choices=['title', 'description', 'narrative'], default='title',
                         help="Specify the variant for the topics (default = 'title')")
 
@@ -62,7 +61,7 @@ if __name__ == '__main__':
     index = pt.IterDictIndexer(index_path)
     loaded_dataset = load_dataset(FULL_TREC_COVID_DATASET_NAME)
     if use_deep_impact == 'yes':
-        retrieval_deep_impact(index_ref=index, loaded_dataset=loaded_dataset, variant=variant)
+        print(retrieval_deep_impact(index_ref=index, loaded_dataset=loaded_dataset, variant=variant))
     else:
-        retrieval(index_ref=index, loaded_dataset=loaded_dataset, variant=variant)
+        print(retrieval(index_ref=index, loaded_dataset=loaded_dataset, variant=variant))
 
