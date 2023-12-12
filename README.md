@@ -1,4 +1,4 @@
-# Elevating TREC-COVID First-Stage Retrieval: Unleashing Doc2Query– Indexing, and Deep Impact Neural Model
+# Exploring First-Stage IR Approaches on the CORD-19 dataset
 Leonidas Kaldanis, Foteini Papadopoulou, Büsra Yilmaz\
 Radboud University, Nijmegen, Netherlands
 
